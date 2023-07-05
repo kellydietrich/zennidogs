@@ -1,0 +1,66 @@
+/* Custom Styles Go Here */
+$color_1: white; /* Color of the links BEFORE scroll */
+$color_2: white; /* Color of the links AFTER scroll */
+$background-color_1: $dark-gradient; 
+$background-color_2: $dark-gradient; /* Color of the navbar AFTER scroll */
+
+
+
+
+/* Transition after scrolling */
+/* Transition to the initial state */
+.navbar-before-scroll {
+	.nav-link {
+		color: $color_1;
+	}
+	.navbar-toggler {
+		color: $color_1;
+	}
+	.nav-link-icon {
+		color: $color_1;
+	}
+	background-color: $background-color_1;
+	transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.navbar-after-scroll {
+	.nav-link {
+		color: $color_2;
+	}
+	.navbar-toggler-icon {
+		color: $color_2;
+	}
+	background-color: $background-color_2;
+	transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+#btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	z-index: 9999;
+}
+
+  #main-navbar {
+	z-index: 9999;
+  }
+
+  #main-navbar .nav-link{
+	font-size: large;
+  }
+  #main-navbar .fab {
+	font-size: xx-large;
+  }
+
+.pupCarousel {
+  height:60vh;/* Adjust the width to your desired size */
+}
+
+.pupCarouselImg {
+	object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height:60vh; 
+  }
+
