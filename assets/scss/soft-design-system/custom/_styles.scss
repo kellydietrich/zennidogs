@@ -42,16 +42,16 @@ $background-color_2: $dark-gradient; /* Color of the navbar AFTER scroll */
 	z-index: 9999;
 }
 
-  #main-navbar {
+#main-navbar {
 	z-index: 9999;
-  }
+}
 
-  #main-navbar .nav-link{
+#main-navbar .nav-link{
 	font-size: large;
-  }
-  #main-navbar .fab {
-	font-size: xx-large;
-  }
+}
+#main-navbar .fab {
+	font-size: x-large;
+}
 
 .pupCarousel {
   height:60vh;/* Adjust the width to your desired size */
@@ -63,4 +63,9 @@ $background-color_2: $dark-gradient; /* Color of the navbar AFTER scroll */
   overflow: hidden;
   height:60vh; 
   }
+
+a[href^="tel:"] {
+	color: inherit;
+	text-decoration: none;
+}
 
