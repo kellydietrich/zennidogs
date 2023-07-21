@@ -14102,10 +14102,18 @@ span.flatpickr-weekday {
 .flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)) {
   box-shadow: -10px 0 0 #1A81B0; }
 
-/* Custom Styles Go Here */
 /* Color of the links BEFORE scroll */
 /* Color of the links AFTER scroll */
 /* Color of the navbar AFTER scroll */
+#main-navbar {
+  z-index: 9999; }
+
+#main-navbar .nav-link {
+  font-size: large; }
+
+#main-navbar .fab {
+  font-size: xx-large; }
+
 /* Transition after scrolling */
 /* Transition to the initial state */
 .navbar-before-scroll {
@@ -14133,15 +14141,6 @@ span.flatpickr-weekday {
   display: none;
   z-index: 9999; }
 
-#main-navbar {
-  z-index: 9999; }
-
-#main-navbar .nav-link {
-  font-size: large; }
-
-#main-navbar .fab {
-  font-size: xx-large; }
-
 .pupCarousel {
   height: 60vh;
   /* Adjust the width to your desired size */ }
@@ -14155,3 +14154,16 @@ span.flatpickr-weekday {
 a[href^="tel:"] {
   color: inherit;
   text-decoration: none; }
+
+#skip-to-main a {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+#skip-to-main a:focus {
+  position: static;
+  width: auto;
+  height: auto; }
