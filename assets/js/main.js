@@ -1,5 +1,4 @@
-/* navbar color change animation*/
-
+// NAVBAR ANIMATION START 
 const navbar = document.getElementById("main-navbar")
 
 window.addEventListener('scroll', function () {
@@ -9,10 +8,13 @@ if (window.pageYOffset > 0) {
   navbar.classList.remove("navbar-after-scroll")
 }
 })
+// NAVBAR ANIMATION END
 
+// BACK TO TOP BUTTON START
+// Grab Back to Top button from html
 let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 20px from the top of the document, show the Back to Top button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -34,15 +36,4 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-
-if (document.getElementById('typed')) {
-  var typed = new Typed("#typed", {
-    stringsElement: '#typed-strings',
-    typeSpeed: 90,
-    backSpeed: 90,
-    backDelay: 200,
-    startDelay: 500,
-    loop: true
-  });
-}
+// BACK TO TOP BUTTON END
