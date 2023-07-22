@@ -2,7 +2,7 @@
   "name": "soft-ui-design-system",
   "version": "1.0.4",
   "description": "Freebie Design System for Bootstrap 5",
-  "main": "index2.html",
+  "main": "index.html",
   "directories": {
     "example": "root"
   },
@@ -46,5 +46,5 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-open": "^3.0.1"
   },
-  "homepage": "kellydietrich.github.io/zennidogs/index2.html"
+  "homepage": "kellydietrich.github.io/zennidogs/index.html"
 }

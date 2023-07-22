@@ -1527,9 +1527,9 @@ progress {
   .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #e293d3;
+    border-color: #1A81B0;
     outline: 0;
-    box-shadow: 0 0 0 2px #e9aede; }
+    box-shadow: 0 0 0 2px #3196c5; }
   .form-control::-webkit-date-and-time-value {
     height: 1.4rem; }
   .form-control::placeholder {
@@ -1656,9 +1656,9 @@ textarea.form-control-lg {
   border-radius: 0.5rem;
   appearance: none; }
   .form-select:focus {
-    border-color: #e293d3;
+    border-color: #1A81B0;
     outline: 0;
-    box-shadow: 0 0 0 2px #e9aede; }
+    box-shadow: 0 0 0 2px #3196c5; }
   .form-select[multiple], .form-select[size]:not([size="1"]) {
     padding-right: 0.75rem;
     background-image: none; }
@@ -1774,9 +1774,9 @@ textarea.form-control-lg {
   .form-range:focus {
     outline: 0; }
     .form-range:focus::-webkit-slider-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e9aede; }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 2px #3196c5; }
     .form-range:focus::-moz-range-thumb {
-      box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e9aede; }
+      box-shadow: 0 0 0 1px #fff, 0 0 0 2px #3196c5; }
   .form-range::-moz-focus-outer {
     border: 0; }
   .form-range::-webkit-slider-thumb {
@@ -3414,7 +3414,7 @@ textarea.form-control-lg {
     z-index: 2; }
   .accordion-button:focus {
     z-index: 3;
-    border-color: #e293d3;
+    border-color: #1A81B0;
     outline: 0;
     box-shadow: none; }
 
@@ -8885,8 +8885,8 @@ textarea.form-control-lg {
   .input-group > :not(:first-child):not(.dropdown-menu) {
     margin-left: 0; }
   .input-group .form-control:focus {
-    border-left: 1px solid #e293d3 !important;
-    border-right: 1px solid #e293d3 !important; }
+    border-left: 1px solid #1A81B0 !important;
+    border-right: 1px solid #1A81B0 !important; }
   .input-group .form-control:not(:first-child) {
     border-left: 0;
     padding-left: 0; }
