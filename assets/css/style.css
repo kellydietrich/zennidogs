@@ -46,7 +46,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #67748e;
+  color: #4B5968;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -1307,15 +1307,15 @@ progress {
 
 .table {
   --bs-table-bg: transparent;
-  --bs-table-striped-color: #67748e;
+  --bs-table-striped-color: #4B5968;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #67748e;
+  --bs-table-active-color: #4B5968;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #67748e;
+  --bs-table-hover-color: #4B5968;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #67748e;
+  color: #4B5968;
   vertical-align: top;
   border-color: #e9ecef; }
   .table > :not(caption) > * > * {
@@ -2080,7 +2080,7 @@ textarea.form-control-lg {
   display: inline-block;
   font-weight: 700;
   line-height: 1.4;
-  color: #67748e;
+  color: #4B5968;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2095,7 +2095,7 @@ textarea.form-control-lg {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #67748e; }
+    color: #4B5968; }
   .btn-check:focus + .btn, .btn:focus {
     outline: 0;
     box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.09), 0 2px 3px -1px rgba(0, 0, 0, 0.07); }
@@ -2614,7 +2614,7 @@ textarea.form-control-lg {
   padding: 0.5rem 0;
   margin: 0;
   font-size: 0.875rem;
-  color: #67748e;
+  color: #4B5968;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2783,7 +2783,7 @@ textarea.form-control-lg {
   padding: 0.3rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #67748e;
+  color: #4B5968;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -2792,7 +2792,7 @@ textarea.form-control-lg {
     color: #252f40;
     background-color: #e9ecef; }
   .dropdown-item.active, .dropdown-item:active {
-    color: #67748e;
+    color: #4B5968;
     text-decoration: none;
     background-color: transparent; }
   .dropdown-item.disabled, .dropdown-item:disabled {
@@ -2814,7 +2814,7 @@ textarea.form-control-lg {
 .dropdown-item-text {
   display: block;
   padding: 0.3rem 1rem;
-  color: #67748e; }
+  color: #4B5968; }
 
 .dropdown-menu-dark {
   color: #dee2e6;
@@ -2826,7 +2826,7 @@ textarea.form-control-lg {
       color: #fff;
       background-color: rgba(255, 255, 255, 0.15); }
     .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
-      color: #67748e;
+      color: #4B5968;
       background-color: transparent; }
     .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
       color: #adb5bd; }
@@ -3380,7 +3380,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 1rem 1rem;
   font-size: 1rem;
-  color: #67748e;
+  color: #4B5968;
   text-align: left;
   background-color: transparent;
   border: 0;
@@ -3719,7 +3719,7 @@ textarea.form-control-lg {
     text-decoration: none;
     background-color: #f8f9fa; }
   .list-group-item-action:active {
-    color: #67748e;
+    color: #4B5968;
     background-color: #e9ecef; }
 
 .list-group-item {
@@ -4449,7 +4449,7 @@ textarea.form-control-lg {
 
 .popover-body {
   padding: 1rem 1rem;
-  color: #67748e; }
+  color: #4B5968; }
 
 .carousel {
   position: relative; }
@@ -5838,7 +5838,7 @@ textarea.form-control-lg {
   color: #fff !important; }
 
 .text-body {
-  color: #67748e !important; }
+  color: #4B5968 !important; }
 
 .text-muted {
   color: #6c757d !important; }
@@ -8205,7 +8205,7 @@ textarea.form-control-lg {
     box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.09), 0 2px 3px -1px rgba(0, 0, 0, 0.07);
     transform: scale(1.02); }
   .btn.bg-white:hover {
-    color: #67748e; }
+    color: #4B5968; }
   .btn.btn-link {
     box-shadow: none;
     font-weight: 700; }
@@ -9442,7 +9442,7 @@ hr.horizontal {
     width: 18px; }
     .navbar .sidenav-toggler-inner .sidenav-toggler-line {
       transition: all 0.15s ease;
-      background: #67748e;
+      background: #4B5968;
       border-radius: 0.125rem;
       position: relative;
       display: block;
@@ -9663,7 +9663,7 @@ html * {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
-  color: #67748e;
+  color: #4B5968;
   font-weight: 400;
   line-height: 1.6;
   background-color: #fff; }
@@ -9884,7 +9884,7 @@ p {
     font-style: italic; }
 
 .text-muted {
-  color: #67748e !important; }
+  color: #4B5968 !important; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
