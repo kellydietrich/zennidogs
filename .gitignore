@@ -16,4 +16,4 @@ package.json
 *.sass.map
 *.scss.map
 
-./assets/scss
+*.scss
